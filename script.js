@@ -15,6 +15,7 @@ let activeDate = {
 let { currentMonth, currentYear } = getCurrentDate()
 
 function firstRender() {
+  // TODO: set active current day and show the date on the button
   const { currentMonth, currentYear } = getCurrentDate()
   renderCalendarGrid(currentYear, currentMonth)
   renderCalendarDate(currentYear, currentMonth)
